@@ -1,0 +1,43 @@
+#section1{
+   
+    background-image: url("../../assets/img/photos/bg4.jpg");
+    
+  }
+
+  #boundnumber
+  {
+    background-image: url("../../assets/img/photos/bg2.jpg");
+  }
+
+  #boundstart
+  {
+    background-image: url("../../assets/img/photos/bg2.jpg");
+  }
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromdown {
+  0% {
+    transform: translateX(-100%);
+  }
+ 40% {
+    transform: translateX(0%);
+  }
+}
+
+#slideonetext {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  #slideonebutton {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromdown;
+    }

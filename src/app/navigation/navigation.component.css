@@ -1,0 +1,12 @@
+#navbar {
+    margin-top: 49px;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 99999;
+}
+
+
+
