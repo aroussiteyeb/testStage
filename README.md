@@ -1,6 +1,7 @@
-# TestTechn
+# TestTechn :  npm install --force 
 
-steps : user npm install --force 
+
+steps :  npm install --force 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
